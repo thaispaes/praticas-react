@@ -1,11 +1,11 @@
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View, Button } from "react-native";
 
-export default function Page() {
+export default function Page({ navigation }) {
   return (
     <View style={styles.container}>
         <Text style={styles.title}>Pagina da Imagem</Text>
 
-        
+        <Button onPress={() => navigation.goBack()} title="Voltar"/>
     </View>
   );
 }

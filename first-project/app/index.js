@@ -7,7 +7,7 @@ export default function Page() {
         <Text style={styles.title}>Hello World!!</Text>
         <Text style={styles.subtitle}>Bem vindo ao App teste de Thais</Text>
 
-        <Link href="/photo" >IMG</Link>
+        <Link href="/photo"><Text style={styles.link}>Clica aqui pra ter uma surpresa. Hihi</Text></Link>
     </View>
   );
 }
@@ -25,5 +25,13 @@ const styles = StyleSheet.create({
   subtitle: {
     fontSize: 36,
     color: "#38434D",
+    paddingBottom: "50px"
   },
+  link: {
+    color: "#cc9cdf",
+    fontSize: 20,
+    backgroundColor: "#652d87",
+    padding: "12px",
+    borderRadius: "5px"
+  }
 });
