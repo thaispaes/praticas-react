@@ -4,7 +4,8 @@ export default function Page() {
   return (
     <View style={styles.container}>
         <Text style={styles.title}>Pagina da Imagem</Text>
-        <Text style={styles.subtitle}>IMG</Text>
+
+        
     </View>
   );
 }
